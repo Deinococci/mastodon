@@ -26,5 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          repository: deinococci/mastodon
-          tags: latest
+          tags: deinococci/mastodon:latest
