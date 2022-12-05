@@ -25,5 +25,7 @@ jobs:
         name: Push to Docker Hub
         uses: docker/build-push-action@v3
         with:
+          context: .
+          file: Dockerfile
           push: true
           tags: deinococci/mastodon:latest
